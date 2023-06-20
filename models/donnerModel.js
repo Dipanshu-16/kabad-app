@@ -1,4 +1,4 @@
-const mongoose = required("mongoose")
+const mongoose = require("mongoose")
 
 const donnerSchema = new mongoose.Schema({
 
@@ -18,14 +18,14 @@ const donnerSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
-    },
-    address: {
-        type: String,
-        required: true
-    },
-    createdAt: {
-        type: date,
-        default: date.now
+    // },
+    // address: {
+    //     type: String,
+    //     required: true
+    // },
+    // createdAt: {
+    //     type: date,
+    //     default: date.now
     }
 
 
